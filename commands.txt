@@ -1,0 +1,16 @@
+git --config --global user.name
+git --global user.email
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/dherath10/LearningGit.git
+git push -u origin master
+
+
+git commit -a
+
+#Clone 
+git clone {Origin URL}
+
+#fetch
